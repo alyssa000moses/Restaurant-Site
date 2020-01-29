@@ -1,0 +1,108 @@
+/*Heading and nav same across all sites */
+nav, footer {
+    border-top: thick solid #D4DDDB;
+    border-bottom: thick solid #D4DDDB;
+    padding: 30px;
+}
+.btn {
+    background-color: #3D5467;
+    color: white;
+    border: thin solid #D4DDDB;
+    height: 30px;
+}
+
+nav .btn:hover{
+    background-color: white;
+    color: #3D5467;
+    font-weight: bold;
+    border: thin solid #D4DDDB;
+}
+
+nav .btn:visited {
+    text-decoration:underline;
+}
+
+.container {
+    text-align: center;
+    background-color: #F6BBB5;
+    display:block;
+    width: 100%;
+    padding:15px;
+            }
+
+header {
+    font-family: 'Gayathri', sans-serif;
+}
+
+body {
+    font-family: 'Gayathri', sans-serif;
+}
+
+footer {
+    text-align: center;
+ }
+
+/*Home page */
+
+#restaurant-description {
+    padding: 50px;
+    font-size: 14pt;
+}
+
+
+/*Menu Page */
+#menu-container {
+    padding: 50px;
+}
+
+#menu-header {
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.menu-item{
+     float: left;
+}
+.menu-first-row {
+    clear:left;
+}
+
+.menu-second-row {
+    clear: left;
+}
+
+#menu-footer {
+    clear: left;
+}
+
+#menu-table-container {
+    margin: auto;
+    padding: 60px;
+}
+
+/* Contact Page */
+
+#contact-container {
+    padding: 50px;
+    width: 60%;
+    font-size: 13pt;
+    text-align: right;
+}
+
+.invalid-feedback, .valid-feedback {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#additionalInfo {
+    height: 100px;
+}
+
+#beenToTheRestaurantLegend, #bestDayToContact {
+    font-weight: 700;
+}
+
+#yesBeenToRestaurant, #noBeenToRestaurant{
+    text-align: right;
+    padding 50px;
+}
